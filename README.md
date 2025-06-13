@@ -24,8 +24,10 @@ matplotlib.pyplot: To create a bar chart visualization of the weather parameters
 
 📌Step-by-Step Code Explanation
 
-Importing Libraries python Copy Edit import requests import matplotlib.pyplot as plt requests is used to handle HTTP requests. matplotlib.pyplot is used for plotting the bar chart.
-Defining API Access and City:
+1.Importing Libraries python Copy Edit import requests import matplotlib.pyplot as plt requests is used to handle HTTP requests. matplotlib.pyplot is used for plotting the bar chart.
+
+2.Defining API Access and City:
+
 city_name = "Benguluru"
 
 api_key = "7f3fe070fb641332807ba83b1e35dc6e"
@@ -136,4 +138,5 @@ And a bar chart with three bars showing Temperature, Feels Like temperature, and
 📌Summary This program effectively: Connects to an external API to get live data.Parses JSON weather data.Visualizes temperature and humidity parameters in an easy-to-understand bar chart.Such automation can be extended for multiple cities, longer forecast data, or integrated into dashboards.
 
 #OUTPUT:
+![Image](https://github.com/user-attachments/assets/01cdfb7c-c62e-4af7-9562-a8bce7431fb2)
 
